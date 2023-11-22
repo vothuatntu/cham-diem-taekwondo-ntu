@@ -107,12 +107,16 @@ input.BigButton {
   color: #000;
 }
 
+.score {
+  padding-top: 40px;
+}
+
 #DiemDo {
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 #DiemXanh {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .statistic {

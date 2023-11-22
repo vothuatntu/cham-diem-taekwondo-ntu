@@ -513,9 +513,11 @@
             // Recursion to deduct points appropriately
             if (!isIncrease && isVdvX && bodyScoreBlueCurrentValue <= 0) {
               calculateStatisticScore(sVDV, iDiem, 1);
+              calculateStatisticScore(sVDV, iDiem, 1);
             }
 
             if (!isIncrease && !isVdvX && bodyScoreRedCurrentValue <= 0) {
+              calculateStatisticScore(sVDV, iDiem, 1);
               calculateStatisticScore(sVDV, iDiem, 1);
             }
             break;
@@ -530,10 +532,12 @@
             // Recursion to deduct points appropriately
             if (!isIncrease && isVdvX && headScoreBlueCurrentValue <= 0) {
               calculateStatisticScore(sVDV, iDiem, 2);
+              calculateStatisticScore(sVDV, iDiem, 1);
             }
 
             if (!isIncrease && !isVdvX && headScoreRedCurrentValue <= 0) {
               calculateStatisticScore(sVDV, iDiem, 2);
+              calculateStatisticScore(sVDV, iDiem, 1);
             }
             break;
 
